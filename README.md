@@ -2,7 +2,7 @@
   <img alt="Logo" src="https://raw.githubusercontent.com/kshitiz-saxena/kshitizsaxena-www/master/src/images/logo.png" width="100" />
 </div>
 <h1 align="center">
-  https://www.kshitizsaxena.com
+  Kshitiz Saxena
 </h1>
 <p align="center">
   This repo contains source code for my personal website, which is based on a theme developed by <a href="https://brittanychiang.com" target="_blank">Brittany Chiang</a> using <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a>, and hosted on <a href="https://www.netlify.com" target="_blank">Netlify</a>

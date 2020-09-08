@@ -1,11 +1,14 @@
 <div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/kshitiz-saxena/kshitiz-saxena/develop/src/images/logo.png" width="100" />
+  <img alt="Logo" src="https://raw.githubusercontent.com/kshitiz-saxena/kshitizsaxena-www/master/src/images/logo.png" width="100" />
 </div>
 <h1 align="center">
   https://www.kshitizsaxena.com
 </h1>
 <p align="center">
-  This repo contains source code for my personal website, which is based on a theme developed by <a href="https://brittanychiang.com" target="_blank">Brittany Chiang</a> using <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a>, and hosted on <a href="https://pages.github.com" target="_blank">GitHub Pages</a>
+  This repo contains source code for my personal website, which is based on a theme developed by <a href="https://brittanychiang.com" target="_blank">Brittany Chiang</a> using <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a>, and hosted on <a href="https://www.netlify.com" target="_blank">Netlify</a>
+</p>
+<p align="center">
+  [![Netlify Status](https://api.netlify.com/api/v1/badges/33470e36-18fd-41ba-abae-e56fb8a399be/deploy-status)](https://app.netlify.com/sites/kshitizsaxena/deploys)
 </p>
 
 ## 💻 Demo

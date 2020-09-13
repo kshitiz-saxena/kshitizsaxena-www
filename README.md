@@ -5,7 +5,12 @@
   Kshitiz Saxena
 </h1>
 <p align="center">
-  This repo contains source code for my <a href="https://kshitizsaxena.com" target="_blank">personal website</a>, which is based on a theme developed by <a href="https://brittanychiang.com" target="_blank">Brittany Chiang</a> using <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a>, and hosted on <a href="https://pages.github.com" target="_blank">GitHub Pages</a>
+  This repo contains source code for my <a href="https://kshitizsaxena.com" target="_blank">personal website</a>, which is based on a theme developed by <a href="https://brittanychiang.com" target="_blank">Brittany Chiang</a> using <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a>, and hosted on <a href="https://www.netlify.com" target="_blank">Netlify</a>.
+</p>
+<p align="center">
+  <a href="https://app.netlify.com/sites/kshitizsaxena/deploys" target="_blank">
+    <img src="https://api.netlify.com/api/v1/badges/33470e36-18fd-41ba-abae-e56fb8a399be/deploy-status" alt="Netlify Status" />
+  </a>
 </p>
 
 ## 💻 Demo

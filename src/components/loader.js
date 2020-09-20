@@ -42,28 +42,6 @@ const Loader = ({ finishLoading }) => {
     const loader = anime.timeline({
       complete: () => finishLoading(),
     });
-
-    loader
-      .add({
-        targets: '#logo path',
-        delay: 300,
-        duration: 300,
-        easing: 'easeInOutQuart',
-        strokeDashoffset: [anime.setDashoffset, 0],
-      })
-      .add({
-        targets: '#logo #B',
-        duration: 300,
-        easing: 'easeInOutQuart',
-        opacity: 1,
-      })
-      .add({
-        targets: '.loader',
-        duration: 200,
-        easing: 'easeInOutQuart',
-        opacity: 0,
-        zIndex: -1,
-      });
   };
 
   const [isMounted, setIsMounted] = useState(false);
@@ -78,9 +56,7 @@ const Loader = ({ finishLoading }) => {
     <StyledContainer className="loader">
       <Helmet bodyAttributes={{ class: `hidden` }} />
 
-      <StyledLogo isMounted={isMounted}>
-        <IconLoader />
-      </StyledLogo>
+      <StyledLogo isMounted={isMounted} />
     </StyledContainer>
   );
 };

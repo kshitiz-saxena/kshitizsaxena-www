@@ -16,7 +16,7 @@ const StyledContainer = styled.div`
   z-index: 10;
   outline: 0;
   transition: ${theme.transition};
-  transform: translateX(${props => (props.menuOpen ? 0 : 100)}vw);
+  transform: translateY(${props => (props.menuOpen ? 0 : -100)}vh);
   visibility: ${props => (props.menuOpen ? 'visible' : 'hidden')};
   display: none;
   ${media.tablet`display: block;`};
@@ -26,7 +26,7 @@ const Sidebar = styled.aside`
   flex-direction: column;
   background-color: ${colors.lightNavy};
   padding: 50px;
-  width: 50vw;
+  width: 100%;
   height: 100%;
   position: relative;
   right: 0;
@@ -34,7 +34,6 @@ const Sidebar = styled.aside`
   font-family: ${fonts.SFMono};
   box-shadow: -10px 0px 30px -15px ${colors.shadowNavy};
   ${media.thone`padding: 25px;`};
-  ${media.phablet`width: 75vw;`};
   ${media.tiny`padding: 10px;`};
 `;
 const NavLinks = styled.nav`
@@ -61,7 +60,6 @@ const NavListItem = styled.li`
   `};
   ${media.tiny`font-size: ${fontSizes.smish};`};
   &:before {
-    display: block;
     content: '0' counter(item) '.';
     color: ${colors.green};
     font-size: ${fontSizes.sm};
@@ -70,8 +68,7 @@ const NavListItem = styled.li`
 `;
 const NavLink = styled(Link)`
   ${mixins.link};
-  padding: 3px 20px 20px;
-  width: 100%;
+  padding: 12px 10px;
 `;
 const ButtonLink = styled.a`
   ${mixins.bigButton};

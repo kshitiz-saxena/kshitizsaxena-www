@@ -4,8 +4,6 @@ module.exports = {
   siteKeywords: 'Kshitiz Saxena, Kshitiz, software architect, full-stack developer, microservices, mobile apps, web apps, java, kotlin, swift, javascript',
   siteUrl: 'https://www.kshitizsaxena.com',
   siteLanguage: 'en_US',
-  googleAnalyticsID: 'UA-43662625-2',
-  googleVerification: 'NAnvp9qMCz59NvlWQ6rr_wve069_zPI4x9xw0MqpHFA',
   name: 'Kshitiz Saxena',
   location: 'Vadodara, India',
   email: 'kshitiz@kshitizsaxena.com',

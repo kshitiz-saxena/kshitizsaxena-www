@@ -16,7 +16,7 @@ const StyledContainer = styled.div`
   z-index: 10;
   outline: 0;
   transition: ${theme.transition};
-  transform: translateY(${props => (props.menuOpen ? 0 : -100)}vh);
+  transform: translateX(${props => (props.menuOpen ? 0 : 100)}vw);
   visibility: ${props => (props.menuOpen ? 'visible' : 'hidden')};
   display: none;
   ${media.tablet`display: block;`};

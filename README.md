@@ -1,29 +1,17 @@
-<div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/kshitiz-saxena/kshitizsaxena-www/master/src/images/logo.png" height="70" />
-</div>
-<h1 align="center">
-  Kshitiz Saxena
-</h1>
-<p align="center">
-  This repo contains source code for my <a href="https://kshitizsaxena.com" target="_blank">personal website</a>, which is based on a theme developed by <a href="https://brittanychiang.com" target="_blank">Brittany Chiang</a> using <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a>, and hosted on <a href="https://www.netlify.com" target="_blank">Netlify</a>.
-</p>
-<p align="center">
-  <a href="https://app.netlify.com/sites/kshitizsaxena/deploys" target="_blank">
-    <img src="https://api.netlify.com/api/v1/badges/33470e36-18fd-41ba-abae-e56fb8a399be/deploy-status" alt="Netlify Status" />
-  </a>
-</p>
+# Personal Website
 
-## 💻 Demo
+This repo contains source code for my personal website ([https://www.kshitizsaxena.com](https://www.kshitizsaxena.com)), which is based on a theme developed by [Brittany Chiang](https://brittanychiang.com) using [Gatsby](https://www.gatsbyjs.org), and hosted on [Netlify](https://www.netlify.com).
 
-Visit [https://www.kshitizsaxena.com](https://www.kshitizsaxena.com)
+[![Deploy Status](https://api.netlify.com/api/v1/badges/33470e36-18fd-41ba-abae-e56fb8a399be/deploy-status)](https://app.netlify.com/sites/kshitizsaxena/deploys)
 
-## 🚨 Forking this repo
+## Forking
 
-**Yes, with attribution**. Please give Brittany Chiang (creater of theme) proper credit, by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
+**Fork with attribution**. Please give Brittany Chiang (creater of theme) proper credit, by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
 
+## Implementation
 If you have questions about implementation, please refer to the [Gatsby docs](https://www.gatsbyjs.org/docs/).
 
-## 🛠 Installation & Set Up
+## Installation & Setup
 
 1. Install the Gatsby CLI
 
@@ -49,7 +37,7 @@ If you have questions about implementation, please refer to the [Gatsby docs](ht
    npm start
    ```
 
-## 🚀 Building and Running for Production
+## Build & Run
 
 1. Generate a full static production build
 
@@ -63,7 +51,7 @@ If you have questions about implementation, please refer to the [Gatsby docs](ht
    npm run serve
    ```
 
-## 🎨 Color Reference
+## Color Reference
 
 | Color          | Hex                                                                |
 | -------------- | ------------------------------------------------------------------ |
